@@ -22,7 +22,7 @@ Open console:
 > To config your project, look `./gulpfile.js`:  
 - `path` to URL access  
 - `server` to FTP access  
-- `filename` to build `./src/filename.mjml` in `./build/filename.html`
+- `filename` to build `./src/filename.mjml` in `./dist/filename.html`
 
 ----
 
@@ -40,6 +40,6 @@ Open console:
 
 ### Production
 
-> To build the HTML files, to set absolute path of the images and to put the content of build folder on the FTP: 
+> To build the HTML files, to set absolute path of the images and to put the content of `./dist/` on the FTP: 
 
     npm run prod
