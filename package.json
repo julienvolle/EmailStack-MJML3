@@ -1,0 +1,24 @@
+{
+  "name": "emailstack-mjml3",
+  "version": "1.0.0",
+  "description": "A stack to develop an email with MJML (v3) and the task runner Gulp (v3)",
+  "author": "Julien Vollé",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "gulp --mode=dev",
+    "dev-watch": "gulp --mode=dev watch",
+    "prod": "gulp --mode=prod ftp"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-ftp": "^1.1.0",
+    "gulp-image": "^4.3.0",
+    "gulp-mjml": "^2.3.0",
+    "gulp-open": "^3.0.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}
